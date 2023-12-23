@@ -12,32 +12,38 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="image"><img src="img/LOGO_UTM.jpg" alt="utm logo"></div>
+        <div class="image"><img src="img/LOGO_UTM.jpg" alt=""></div>
         <form id="pageForm">
-            <p>Choose your position of viewing the schedule:</p>
-            <label for="student">Student
-            <input type="radio" name="userrole" value="student" id="student"></label><br>
-            <label for="administration">Admin
-            <input type="radio" name="userrole" value="administration" id="administration"></label><br>
-            <input type="submit" value="Submit" id="submit">
+            <p>Information on faculty selection:</p>
+            <label for="faculty">
+                Select your faculty:
+                <select name="faculty" id="faculty">
+                    <option value="FCIM">FCIM</option>
+                </select>
+            </label><br>
+            <label for="group">
+                Select your group:
+                <select name="group" id="group">
+                    <!-- populate with groups -->
+                </select>
+            </label><br>
+            <input type="submit" id="submit" value="Access schedule">
         </form>
-        
+        <a href="index.html" class="return_link">Go back</a>
     </div>
     <script>
         document.getElementById('pageForm').addEventListener('submit', function(event) {
         event.preventDefault();
-        var selectedValue = document.querySelector('input[name="userrole"]:checked').value;
+        var selectedValue = document.getElementById('group').value;
           var redirectUrl = getRedirectUrl(selectedValue);
           window.location.href = redirectUrl;
         });
         function getRedirectUrl(selectedValue) {
           switch (selectedValue) {
-            case 'administration':
-              return 'data_upload.html'; 
-            case 'student':
-              return 'specialty_choose.html';
+            case 'FAF-233':
+              return 'group_schedule.html'; 
             default:
-              return 'index.html'; 
+              return 'general_schedule.html'; 
           }
         }
     </script>

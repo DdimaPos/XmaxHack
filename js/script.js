@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetch the CSV file
     fetch('../data/Profesori.csv')
         .then(response => response.text())
         .then(data => {

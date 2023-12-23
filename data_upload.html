@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
+    <title>Uploading</title>
+    <link rel="stylesheet" href="css/formpages.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="image"><img src="img/LOGO_UTM.jpg" alt=""></div>
+        <form id="pageForm">
+            <label for="data">Groups info: <input value="Upload" id="groupFile" type="file"></label><br>
+            <label for="data">Professor info: <input value="Upload" id="professorFile" type="file"></label><br>
+            <label for="data">Cab info: <input value="Upload" id="cabFile" type="file"></label><br>
+            <label for="data">Subject info: <input value="Upload" id="subjectFile" type="file"></label><br>
+            <input id="submit" type="submit" value="Upload">
+        </form>
+        <a href="index.html" class="return_link">Go back</a>
+    </div>
+    <script>
+        const submit_button=document.getElementById('submit');
+        submit_button.addEventListener('click', validateForm);
+        function validateForm(ev) {
+            ev.preventDefault();
+            var groupFile = document.getElementById('groupFile').value;
+            var professorFile = document.getElementById('professorFile').value;
+            var cabFile = document.getElementById('cabFile').value;
+            var subjectFile = document.getElementById('subjectFile').value;
+            let greatExtension = groupFile.split('.').pop()==='csv' && professorFile.split('.').pop()==='csv' && cabFile.split('.').pop()==='csv' && subjectFile.split('.').pop()==='csv'
+
+            if (groupFile === '' || professorFile === '' || cabFile === '' || subjectFile === '' || !greatExtension) {
+              alert('Please select a file for each input of csv extension');
+              return false;
+            }
+          
+            window.location.href = 'general_schedule.html';
+            return true;
+        }
+      </script>
+</body>
+</html>

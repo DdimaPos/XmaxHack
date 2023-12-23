@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+.wrapper .return_link {
+  position: relative;
+  font-size: 15px;
+  color: rgb(94, 93, 171);
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+.wrapper .image {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+body {
+  height: 90vh;
+  background-image: url("../img/bg.webp");
+  background-size: 300px;
+  background-repeat: repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+form p {
+  font-size: 20px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+form label {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+form input[type=file]::-webkit-file-upload-button {
+  border: 1px solid #5cd2e7;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #9bf2fe;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+form input[type=file]::file-selector-button {
+  border: 1px solid #5cd2e7;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #9bf2fe;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+form #submit {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: rgb(119, 196, 255);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+form #submit:hover {
+  cursor: pointer;
+  background-color: rgb(36, 154, 250);
+}
