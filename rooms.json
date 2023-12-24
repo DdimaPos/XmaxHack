@@ -1,0 +1,310 @@
+{
+    "3-3": {
+        "capacity": 210,
+        "laboratory": false
+    },
+    "3-101": {
+        "capacity": 88,
+        "laboratory": false
+    },
+    "3-104": {
+        "capacity": 94,
+        "laboratory": false
+    },
+    "3-201": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-202": {
+        "capacity": 32,
+        "laboratory": false
+    },
+    "3-203": {
+        "capacity": 26,
+        "laboratory": false
+    },
+    "3-224": {
+        "capacity": 34,
+        "laboratory": false
+    },
+    "3-310": {
+        "capacity": 76,
+        "laboratory": false
+    },
+    "3-312": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-401": {
+        "capacity": 60,
+        "laboratory": false
+    },
+    "3-402": {
+        "capacity": 60,
+        "laboratory": false
+    },
+    "3-404": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-405": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-505": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-512": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-515": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "3-519": {
+        "capacity": 28,
+        "laboratory": false
+    },
+    "3-524": {
+        "capacity": 24,
+        "laboratory": false
+    },
+    "6-2": {
+        "capacity": 180,
+        "laboratory": false
+    },
+    "5-1": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-601": {
+        "capacity": 15,
+        "laboratory": false
+    },
+    "3-604": {
+        "capacity": 60,
+        "laboratory": false
+    },
+    "3-606": {
+        "capacity": 28,
+        "laboratory": false
+    },
+    "3-607": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-609": {
+        "capacity": 56,
+        "laboratory": false
+    },
+    "3-611": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-613": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-614": {
+        "capacity": 60,
+        "laboratory": false
+    },
+    "3-618": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-622": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-623": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-624": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-630": {
+        "capacity": 30,
+        "laboratory": false
+    },
+    "3-707": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-709": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-717": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-718": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-719": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-720": {
+        "capacity": 60,
+        "laboratory": false
+    },
+    "3-722": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-724": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "3-113": {
+        "capacity": 48,
+        "laboratory": false
+    },
+    "3-115": {
+        "capacity": 20,
+        "laboratory": false
+    },
+    "3-118": {
+        "capacity": 50,
+        "laboratory": false
+    },
+    "D-01": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "D-03": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "D-02": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "D-04": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "110": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "112": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "114": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "212": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "214": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "215": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "217": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "406": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "407": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "409": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "420": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "422": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "427": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "416": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "501A": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "501B": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "503": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "502A": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "502B": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "516": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "513A": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "513B": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "518": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "608": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "619": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "628": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "A-01": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "A-02": {
+        "capacity": null,
+        "laboratory": false
+    },
+    "A-03": {
+        "capacity": null,
+        "laboratory": false
+    }
+}

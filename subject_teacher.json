@@ -1,0 +1,587 @@
+{
+    "1": {
+        "course": 1,
+        "seminar": 1,
+        "laboratory": 118
+    },
+    "2": {
+        "course": 2,
+        "seminar": 2,
+        "laboratory": 119
+    },
+    "3": {
+        "course": 3,
+        "seminar": 3,
+        "laboratory": 120
+    },
+    "4": {
+        "course": 4,
+        "seminar": 4,
+        "laboratory": 121
+    },
+    "5": {
+        "course": 5,
+        "seminar": 5,
+        "laboratory": 122
+    },
+    "6": {
+        "course": 6,
+        "seminar": 6,
+        "laboratory": 123
+    },
+    "7": {
+        "course": 7,
+        "seminar": 7,
+        "laboratory": 124
+    },
+    "8": {
+        "course": 8,
+        "seminar": 8,
+        "laboratory": 125
+    },
+    "9": {
+        "course": 9,
+        "seminar": 9,
+        "laboratory": 126
+    },
+    "10": {
+        "course": 10,
+        "seminar": 10,
+        "laboratory": 127
+    },
+    "11": {
+        "course": 11,
+        "seminar": 11,
+        "laboratory": 128
+    },
+    "12": {
+        "course": 12,
+        "seminar": 12,
+        "laboratory": 129
+    },
+    "13": {
+        "course": 13,
+        "seminar": 13,
+        "laboratory": 130
+    },
+    "14": {
+        "course": 14,
+        "seminar": 14,
+        "laboratory": 131
+    },
+    "15": {
+        "course": 15,
+        "seminar": 15,
+        "laboratory": 132
+    },
+    "16": {
+        "course": 16,
+        "seminar": 16,
+        "laboratory": 133
+    },
+    "17": {
+        "course": 17,
+        "seminar": 17,
+        "laboratory": 134
+    },
+    "18": {
+        "course": 18,
+        "seminar": 18,
+        "laboratory": 135
+    },
+    "19": {
+        "course": 19,
+        "seminar": 19,
+        "laboratory": 136
+    },
+    "20": {
+        "course": 20,
+        "seminar": 20,
+        "laboratory": 137
+    },
+    "21": {
+        "course": 21,
+        "seminar": 21,
+        "laboratory": 138
+    },
+    "22": {
+        "course": 22,
+        "seminar": 22,
+        "laboratory": 139
+    },
+    "23": {
+        "course": 23,
+        "seminar": 23,
+        "laboratory": 140
+    },
+    "24": {
+        "course": 24,
+        "seminar": 24,
+        "laboratory": 141
+    },
+    "25": {
+        "course": 25,
+        "seminar": 25,
+        "laboratory": 142
+    },
+    "26": {
+        "course": 26,
+        "seminar": 26,
+        "laboratory": 143
+    },
+    "27": {
+        "course": 27,
+        "seminar": 27,
+        "laboratory": 144
+    },
+    "28": {
+        "course": 28,
+        "seminar": 28,
+        "laboratory": 145
+    },
+    "29": {
+        "course": 29,
+        "seminar": 29,
+        "laboratory": 146
+    },
+    "30": {
+        "course": 30,
+        "seminar": 30,
+        "laboratory": 147
+    },
+    "31": {
+        "course": 31,
+        "seminar": 31,
+        "laboratory": 148
+    },
+    "32": {
+        "course": 32,
+        "seminar": 32,
+        "laboratory": 149
+    },
+    "33": {
+        "course": 33,
+        "seminar": 33,
+        "laboratory": 150
+    },
+    "34": {
+        "course": 34,
+        "seminar": 34,
+        "laboratory": 151
+    },
+    "35": {
+        "course": 35,
+        "seminar": 35,
+        "laboratory": 152
+    },
+    "36": {
+        "course": 36,
+        "seminar": 36,
+        "laboratory": 153
+    },
+    "37": {
+        "course": 37,
+        "seminar": 37,
+        "laboratory": 154
+    },
+    "38": {
+        "course": 38,
+        "seminar": 38,
+        "laboratory": 155
+    },
+    "39": {
+        "course": 39,
+        "seminar": 39,
+        "laboratory": 156
+    },
+    "40": {
+        "course": 40,
+        "seminar": 40,
+        "laboratory": 157
+    },
+    "41": {
+        "course": 41,
+        "seminar": 41,
+        "laboratory": 158
+    },
+    "42": {
+        "course": 42,
+        "seminar": 42,
+        "laboratory": 159
+    },
+    "43": {
+        "course": 43,
+        "seminar": 43,
+        "laboratory": 160
+    },
+    "44": {
+        "course": 44,
+        "seminar": 44,
+        "laboratory": 161
+    },
+    "45": {
+        "course": 45,
+        "seminar": 45,
+        "laboratory": 162
+    },
+    "46": {
+        "course": 46,
+        "seminar": 46,
+        "laboratory": 163
+    },
+    "47": {
+        "course": 47,
+        "seminar": 47,
+        "laboratory": 164
+    },
+    "48": {
+        "course": 48,
+        "seminar": 48,
+        "laboratory": 165
+    },
+    "49": {
+        "course": 49,
+        "seminar": 49,
+        "laboratory": 166
+    },
+    "50": {
+        "course": 50,
+        "seminar": 50,
+        "laboratory": 167
+    },
+    "51": {
+        "course": 51,
+        "seminar": 51,
+        "laboratory": 168
+    },
+    "52": {
+        "course": 52,
+        "seminar": 52,
+        "laboratory": 169
+    },
+    "53": {
+        "course": 53,
+        "seminar": 53,
+        "laboratory": 170
+    },
+    "54": {
+        "course": 54,
+        "seminar": 54,
+        "laboratory": 171
+    },
+    "55": {
+        "course": 55,
+        "seminar": 55,
+        "laboratory": 172
+    },
+    "56": {
+        "course": 56,
+        "seminar": 56,
+        "laboratory": 173
+    },
+    "57": {
+        "course": 57,
+        "seminar": 57,
+        "laboratory": 174
+    },
+    "58": {
+        "course": 58,
+        "seminar": 58,
+        "laboratory": 175
+    },
+    "59": {
+        "course": 59,
+        "seminar": 59,
+        "laboratory": 176
+    },
+    "60": {
+        "course": 60,
+        "seminar": 60,
+        "laboratory": 177
+    },
+    "61": {
+        "course": 61,
+        "seminar": 61,
+        "laboratory": 178
+    },
+    "62": {
+        "course": 62,
+        "seminar": 62,
+        "laboratory": 179
+    },
+    "63": {
+        "course": 63,
+        "seminar": 63,
+        "laboratory": 180
+    },
+    "64": {
+        "course": 64,
+        "seminar": 64,
+        "laboratory": 181
+    },
+    "65": {
+        "course": 65,
+        "seminar": 65,
+        "laboratory": 182
+    },
+    "66": {
+        "course": 66,
+        "seminar": 66,
+        "laboratory": 183
+    },
+    "67": {
+        "course": 67,
+        "seminar": 67,
+        "laboratory": 184
+    },
+    "68": {
+        "course": 68,
+        "seminar": 68,
+        "laboratory": 185
+    },
+    "69": {
+        "course": 69,
+        "seminar": 69,
+        "laboratory": 186
+    },
+    "70": {
+        "course": 70,
+        "seminar": 70,
+        "laboratory": 187
+    },
+    "71": {
+        "course": 71,
+        "seminar": 71,
+        "laboratory": 188
+    },
+    "72": {
+        "course": 72,
+        "seminar": 72,
+        "laboratory": 189
+    },
+    "73": {
+        "course": 73,
+        "seminar": 73,
+        "laboratory": 190
+    },
+    "74": {
+        "course": 74,
+        "seminar": 74,
+        "laboratory": 191
+    },
+    "75": {
+        "course": 75,
+        "seminar": 75,
+        "laboratory": 192
+    },
+    "76": {
+        "course": 76,
+        "seminar": 76,
+        "laboratory": 193
+    },
+    "77": {
+        "course": 77,
+        "seminar": 77,
+        "laboratory": 194
+    },
+    "78": {
+        "course": 78,
+        "seminar": 78,
+        "laboratory": 195
+    },
+    "79": {
+        "course": 79,
+        "seminar": 79,
+        "laboratory": 196
+    },
+    "80": {
+        "course": 80,
+        "seminar": 80,
+        "laboratory": 197
+    },
+    "81": {
+        "course": 81,
+        "seminar": 81,
+        "laboratory": 198
+    },
+    "82": {
+        "course": 82,
+        "seminar": 82,
+        "laboratory": 199
+    },
+    "83": {
+        "course": 83,
+        "seminar": 83,
+        "laboratory": 200
+    },
+    "84": {
+        "course": 84,
+        "seminar": 84,
+        "laboratory": 201
+    },
+    "85": {
+        "course": 85,
+        "seminar": 85,
+        "laboratory": 202
+    },
+    "86": {
+        "course": 86,
+        "seminar": 86,
+        "laboratory": 203
+    },
+    "87": {
+        "course": 87,
+        "seminar": 87,
+        "laboratory": 204
+    },
+    "88": {
+        "course": 88,
+        "seminar": 88,
+        "laboratory": 205
+    },
+    "89": {
+        "course": 89,
+        "seminar": 89,
+        "laboratory": 206
+    },
+    "90": {
+        "course": 90,
+        "seminar": 90,
+        "laboratory": 207
+    },
+    "91": {
+        "course": 91,
+        "seminar": 91,
+        "laboratory": 208
+    },
+    "92": {
+        "course": 92,
+        "seminar": 92,
+        "laboratory": 209
+    },
+    "93": {
+        "course": 93,
+        "seminar": 93,
+        "laboratory": 210
+    },
+    "94": {
+        "course": 94,
+        "seminar": 94,
+        "laboratory": 211
+    },
+    "95": {
+        "course": 95,
+        "seminar": 95,
+        "laboratory": 212
+    },
+    "96": {
+        "course": 96,
+        "seminar": 96,
+        "laboratory": 213
+    },
+    "97": {
+        "course": 97,
+        "seminar": 97,
+        "laboratory": 214
+    },
+    "98": {
+        "course": 98,
+        "seminar": 98,
+        "laboratory": 215
+    },
+    "99": {
+        "course": 99,
+        "seminar": 99,
+        "laboratory": 216
+    },
+    "100": {
+        "course": 100,
+        "seminar": 100,
+        "laboratory": 217
+    },
+    "101": {
+        "course": 101,
+        "seminar": 101,
+        "laboratory": 218
+    },
+    "102": {
+        "course": 102,
+        "seminar": 102,
+        "laboratory": 219
+    },
+    "103": {
+        "course": 103,
+        "seminar": 103,
+        "laboratory": 220
+    },
+    "104": {
+        "course": 104,
+        "seminar": 104,
+        "laboratory": 221
+    },
+    "105": {
+        "course": 105,
+        "seminar": 105,
+        "laboratory": 222
+    },
+    "106": {
+        "course": 106,
+        "seminar": 106,
+        "laboratory": 223
+    },
+    "107": {
+        "course": 107,
+        "seminar": 107,
+        "laboratory": 224
+    },
+    "108": {
+        "course": 108,
+        "seminar": 108,
+        "laboratory": 225
+    },
+    "109": {
+        "course": 109,
+        "seminar": 109,
+        "laboratory": 226
+    },
+    "110": {
+        "course": 110,
+        "seminar": 110,
+        "laboratory": 227
+    },
+    "111": {
+        "course": 111,
+        "seminar": 111,
+        "laboratory": 228
+    },
+    "112": {
+        "course": 112,
+        "seminar": 112,
+        "laboratory": 229
+    },
+    "113": {
+        "course": 113,
+        "seminar": 113,
+        "laboratory": 230
+    },
+    "114": {
+        "course": 114,
+        "seminar": 114,
+        "laboratory": 231
+    },
+    "115": {
+        "course": 115,
+        "seminar": 115,
+        "laboratory": 232
+    },
+    "116": {
+        "course": 116,
+        "seminar": 116,
+        "laboratory": 233
+    },
+    "117": {
+        "course": 117,
+        "seminar": 117,
+        "laboratory": 234
+    }
+}

@@ -31,22 +31,7 @@
         </form>
         <a href="index.html" class="return_link">Go back</a>
     </div>
-    <script>
-        document.getElementById('pageForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        var selectedValue = document.getElementById('group').value;
-          var redirectUrl = getRedirectUrl(selectedValue);
-          window.location.href = redirectUrl;
-        });
-        function getRedirectUrl(selectedValue) {
-          switch (selectedValue) {
-            case 'FAF-233':
-              return 'group_schedule.html'; 
-            default:
-              return 'general_schedule.html'; 
-          }
-        }
-    </script>
+    <script src="js/specialty_choose.js"></script>
 </body>
 
 </html>

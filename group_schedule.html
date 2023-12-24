@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,202 @@
         </ul>
     </nav>
     <table>
-        <!-- table data -->
+        <thead>
+            <tr>
+                <th>Group Sem 1</th>
+                <th class="group_name"><!-- group --></th>
+            </tr>
+        
+        </thead>
+         <tbody>
+            <tr>
+                <td class="day" rowspan="7">Monday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            
+            <tr>
+                <td class="day" rowspan="7">Tuesday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            
+            <tr>
+                <td class="day" rowspan="7">Wednesday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+
+            <tr>
+                <td class="day" rowspan="7">Thursday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+              
+            </tr>
+
+            <tr>
+                <td class="day" rowspan="7">Friday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+
+            <tr>
+                <td class="day"  rowspan="7">Saturday</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+            </tr>
+        </tbody>
     </table>
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var group = urlParams.get("group");
+        var gr_ID = urlParams.get("groupID");
+        //console.log(group); 
+        document.querySelector(".group_name").innerText=group;
+         //6 days 7 lectures 2(cab, prof)
+        const endpoint=`http://127.0.0.1:5000/group=${gr_ID}`
+        fetch(endpoint, {
+            method: 'GET',
+            // mode: 'no-cors'
+        })
+            .then(response => response.json())
+            .then(data=>{
+                let gr_schedule = [];
+
+                // Initialize the gr_schedule array
+                for (let i = 0; i < 6; i++) {
+                    gr_schedule[i] = [];
+                    for (let j = 0; j < 7; j++) {
+                        gr_schedule[i][j] = [];
+                        for(let k=0;k<2;k++){
+                            gr_schedule[i][j][k] = [null, null, null];
+                        }
+                         // Initialize with null values
+                    }
+                }
+
+                console.log(data)
+                data.forEach(element => {
+                    element.forEach(elem => {                       
+                        gr_schedule[elem.day][elem.lecture_ord][0]=elem.language;//need cab here
+                        gr_schedule[elem.day][elem.lecture_ord][1]=elem.teacher;
+                        
+                    });
+                    
+                }); 
+                for (let i = 0; i < 6; i++) {
+                    for (let j = 0; j < 7; j++) {
+                        const rowIndex = i * 7 + j + 1;
+                        const cell = document.querySelector(`tbody tr:nth-child(${rowIndex}) td:nth-child(2)`);
+                        const cab = gr_schedule[i][j][0];
+                        const prof = gr_schedule[i][j][1];
+                        cell.innerText = `Cab: ${cab}, Prof: ${prof}`;
+                    }
+                }
+            })
+            .catch(error => console.error('Errorrrr fetching data:', error));
+    </script>
 </body>
 </html>

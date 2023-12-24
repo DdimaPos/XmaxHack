@@ -1,0 +1,428 @@
+{
+    "1": {
+        "language": "ro",
+        "speciality": "AI",
+        "group": "AI-231",
+        "count": 31
+    },
+    "2": {
+        "language": "ru",
+        "speciality": "AI",
+        "group": "AI-232",
+        "count": 15
+    },
+    "3": {
+        "language": "ro",
+        "speciality": "CR",
+        "group": "CR-231",
+        "count": 28
+    },
+    "4": {
+        "language": "ro",
+        "speciality": "CR",
+        "group": "CR-232",
+        "count": 28
+    },
+    "5": {
+        "language": "ru",
+        "speciality": "CR",
+        "group": "CR-233",
+        "count": 25
+    },
+    "6": {
+        "language": "ro",
+        "speciality": "EA",
+        "group": "EA-231",
+        "count": 8
+    },
+    "7": {
+        "language": "ru",
+        "speciality": "EA/MN",
+        "group": "EA/MN-232",
+        "count": 15
+    },
+    "8": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-231",
+        "count": 26
+    },
+    "9": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-232",
+        "count": 26
+    },
+    "10": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-233",
+        "count": 24
+    },
+    "11": {
+        "language": "ru",
+        "speciality": "IA",
+        "group": "IA-234",
+        "count": 19
+    },
+    "12": {
+        "language": "ru",
+        "speciality": "IA",
+        "group": "IA-235",
+        "count": 11
+    },
+    "13": {
+        "language": "ro",
+        "speciality": "SD",
+        "group": "SD-231",
+        "count": 31
+    },
+    "14": {
+        "language": "ru",
+        "speciality": "SD",
+        "group": "SD-232",
+        "count": 14
+    },
+    "15": {
+        "language": "ro",
+        "speciality": "IBM",
+        "group": "IBM-231",
+        "count": 20
+    },
+    "16": {
+        "language": "ru",
+        "speciality": "IBM",
+        "group": "IBM-232",
+        "count": 19
+    },
+    "17": {
+        "language": "ro",
+        "speciality": "MN",
+        "group": "MN-231",
+        "count": 19
+    },
+    "18": {
+        "language": "ro",
+        "speciality": "RM",
+        "group": "RM-231",
+        "count": 25
+    },
+    "19": {
+        "language": "ro",
+        "speciality": "SI",
+        "group": "SI-231",
+        "count": 29
+    },
+    "20": {
+        "language": "ro",
+        "speciality": "SI",
+        "group": "SI-232",
+        "count": 29
+    },
+    "21": {
+        "language": "ru",
+        "speciality": "SI",
+        "group": "SI-233",
+        "count": 21
+    },
+    "22": {
+        "language": "ru",
+        "speciality": "SI",
+        "group": "SI-234",
+        "count": 11
+    },
+    "23": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-231",
+        "count": 28
+    },
+    "24": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-232",
+        "count": 28
+    },
+    "25": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-233",
+        "count": 27
+    },
+    "26": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-234",
+        "count": 27
+    },
+    "27": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-235",
+        "count": 25
+    },
+    "28": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-236",
+        "count": 22
+    },
+    "29": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-237",
+        "count": 23
+    },
+    "30": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-238",
+        "count": 28
+    },
+    "31": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-239",
+        "count": 27
+    },
+    "32": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-2310",
+        "count": 27
+    },
+    "33": {
+        "language": "fr",
+        "speciality": "FI",
+        "group": "FI-231",
+        "count": 10
+    },
+    "34": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-231",
+        "count": 32
+    },
+    "35": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-232",
+        "count": 32
+    },
+    "36": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-233",
+        "count": 31
+    },
+    "37": {
+        "language": "ro",
+        "speciality": "AI",
+        "group": "AI-221",
+        "count": 16
+    },
+    "38": {
+        "language": "ro",
+        "speciality": "CR",
+        "group": "CR-221",
+        "count": 21
+    },
+    "39": {
+        "language": "ro",
+        "speciality": "CR",
+        "group": "CR-222",
+        "count": 25
+    },
+    "40": {
+        "language": "ru",
+        "speciality": "CR",
+        "group": "CR-223",
+        "count": 25
+    },
+    "41": {
+        "language": "ro",
+        "speciality": "EA",
+        "group": "EA-221",
+        "count": 4
+    },
+    "42": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-221",
+        "count": 19
+    },
+    "43": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-222",
+        "count": 23
+    },
+    "44": {
+        "language": "ro",
+        "speciality": "IA",
+        "group": "IA-223",
+        "count": 18
+    },
+    "45": {
+        "language": "ru",
+        "speciality": "IA",
+        "group": "IA-224",
+        "count": 16
+    },
+    "46": {
+        "language": "ru",
+        "speciality": "IA",
+        "group": "IA-225",
+        "count": 12
+    },
+    "47": {
+        "language": "ro",
+        "speciality": "MI",
+        "group": "MI-221",
+        "count": 13
+    },
+    "48": {
+        "language": "ro",
+        "speciality": "MI",
+        "group": "MI-222",
+        "count": 20
+    },
+    "49": {
+        "language": "ru",
+        "speciality": "MI",
+        "group": "MI-223",
+        "count": 23
+    },
+    "50": {
+        "language": "ro",
+        "speciality": "IBM",
+        "group": "IBM-221",
+        "count": 20
+    },
+    "51": {
+        "language": "ru",
+        "speciality": "IBM",
+        "group": "IBM-222",
+        "count": 15
+    },
+    "52": {
+        "language": "ro",
+        "speciality": "MN",
+        "group": "MN-221",
+        "count": 10
+    },
+    "53": {
+        "language": "ru",
+        "speciality": "MN",
+        "group": "MN-222",
+        "count": 12
+    },
+    "54": {
+        "language": "ro",
+        "speciality": "RM",
+        "group": "RM-221",
+        "count": 17
+    },
+    "55": {
+        "language": "ru",
+        "speciality": "RM",
+        "group": "RM-222",
+        "count": 11
+    },
+    "56": {
+        "language": "ro",
+        "speciality": "SI",
+        "group": "SI-221",
+        "count": 27
+    },
+    "57": {
+        "language": "ru",
+        "speciality": "SI",
+        "group": "SI-222",
+        "count": 15
+    },
+    "58": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-221",
+        "count": 24
+    },
+    "59": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-222",
+        "count": 22
+    },
+    "60": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-223",
+        "count": 23
+    },
+    "61": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-224",
+        "count": 22
+    },
+    "62": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-225",
+        "count": 25
+    },
+    "63": {
+        "language": "ro",
+        "speciality": "TI",
+        "group": "TI-226",
+        "count": 21
+    },
+    "64": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-227",
+        "count": 24
+    },
+    "65": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-228",
+        "count": 22
+    },
+    "66": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-229",
+        "count": 27
+    },
+    "67": {
+        "language": "ru",
+        "speciality": "TI",
+        "group": "TI-2210",
+        "count": 15
+    },
+    "68": {
+        "language": "fr",
+        "speciality": "FI",
+        "group": "FI-221",
+        "count": 18
+    },
+    "69": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-221",
+        "count": 28
+    },
+    "70": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-222",
+        "count": 29
+    },
+    "71": {
+        "language": "eng",
+        "speciality": "FAF",
+        "group": "FAF-223",
+        "count": 28
+    }
+}

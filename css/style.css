@@ -110,7 +110,30 @@ nav ul li img {
 }
 
 table {
+  margin: 0 auto;
   width: 1200px;
   height: 700px;
-  background-color: #f6b7b7;
+}
+table tr:nth-child(odd) {
+  background-color: rgb(232, 144, 144);
+}
+table .day {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  border: none;
+  width: 30%;
+}
+table tr {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+table tr td {
+  font-size: 17px;
+  margin: 0;
+  border: 3px solid black;
+}
+table tr th {
+  font-size: 18px;
+  margin: 0;
 }

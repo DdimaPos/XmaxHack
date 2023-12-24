@@ -61,10 +61,36 @@ nav{
             }
         }
     }
-    
+
 }
 table{
+    margin: 0 auto;
     width: 1200px;
     height: 700px;
-    background-color: #f6b7b7;
+    //background-color: #f6b7b7;
+    tr:nth-child(odd){
+        background-color: rgb(232, 144, 144);
+    }
+    //border: 1px solid black;
+    .day{
+        transform: rotate(-90deg);
+        border:  none;
+        width:30%
+    }
+    tr{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        //border: 3px solid black;
+        td{
+            font-size: 17px;
+            margin: 0;
+            border: 3px solid black;
+        }
+        th{
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+    
 }
