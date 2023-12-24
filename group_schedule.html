@@ -19,15 +19,16 @@
     <table>
         <thead>
             <tr>
+                <th style="padding: 10px;" class="group_name"><!-- group --></th>
                 <th>Group Sem 1</th>
-                <th class="group_name"><!-- group --></th>
             </tr>
         
         </thead>
          <tbody>
             <tr>
+                <td></td>
                 <td class="day" rowspan="7">Monday</td>
-                <td></td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -49,8 +50,9 @@
             </tr>
             
             <tr>
+                <td></td>
                 <td class="day" rowspan="7">Tuesday</td>
-                <td></td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -72,8 +74,9 @@
             </tr>
             
             <tr>
-                <td class="day" rowspan="7">Wednesday</td>
                 <td></td>
+                <td class="day" rowspan="7">Wednesday</td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -95,8 +98,9 @@
             </tr>
 
             <tr>
-                <td class="day" rowspan="7">Thursday</td>
                 <td></td>
+                <td class="day" rowspan="7">Thursday</td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -119,8 +123,9 @@
             </tr>
 
             <tr>
-                <td class="day" rowspan="7">Friday</td>
                 <td></td>
+                <td class="day" rowspan="7">Friday</td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -142,8 +147,9 @@
             </tr>
 
             <tr>
-                <td class="day"  rowspan="7">Saturday</td>
                 <td></td>
+                <td class="day"  rowspan="7">Saturday</td>
+                
             </tr>
             <tr>
                 <td></td><td></td>
@@ -169,50 +175,81 @@
         var urlParams = new URLSearchParams(window.location.search);
         var group = urlParams.get("group");
         var gr_ID = urlParams.get("groupID");
-        //console.log(group); 
         document.querySelector(".group_name").innerText=group;
          //6 days 7 lectures 2(cab, prof)
         const endpoint=`http://127.0.0.1:5000/group=${gr_ID}`
-        fetch(endpoint, {
-            method: 'GET',
-            // mode: 'no-cors'
-        })
+        const teacher_endpoint=`http://127.0.0.1:5000/teachers`;
+        const subjects_endpoint=`http://127.0.0.1:5000/subjects`;
+        // Assuming the URLs of your files
+
+// Fetch the first file
+    fetch(endpoint, {
+        method: "GET",
+    })
+    .then(response => response.json())
+    .then(data1 => {
+        // Fetch the second file
+        fetch(teacher_endpoint, {
+        method: "GET",
+    })
             .then(response => response.json())
-            .then(data=>{
-                let gr_schedule = [];
+            .then(data2 => {
+                // Create a mapping object from teacher IDs to names
+                fetch(subjects_endpoint, {
+                    method: "GET",
+                })
+                .then(response => response.json())
+                .then(data3 => {
+                    const teacherMapping = data2;
+                    const subjectsMapping = data3
+                    let gr_schedule = [];
 
-                // Initialize the gr_schedule array
-                for (let i = 0; i < 6; i++) {
-                    gr_schedule[i] = [];
-                    for (let j = 0; j < 7; j++) {
-                        gr_schedule[i][j] = [];
-                        for(let k=0;k<2;k++){
-                            gr_schedule[i][j][k] = [null, null, null];
+                    // Initialize the gr_schedule array
+                    for (let i = 0; i < 6; i++) {
+                        gr_schedule[i] = [];
+                        for (let j = 0; j < 7; j++) {
+                            gr_schedule[i][j] = [];
+                            for (let k = 0; k < 4; k++) {
+                                gr_schedule[i][j][k] = [null, null, null];
+                            }
                         }
-                         // Initialize with null values
                     }
-                }
 
-                console.log(data)
-                data.forEach(element => {
-                    element.forEach(elem => {                       
-                        gr_schedule[elem.day][elem.lecture_ord][0]=elem.language;//need cab here
-                        gr_schedule[elem.day][elem.lecture_ord][1]=elem.teacher;
-                        
+                    console.log(data1);
+                    data1.forEach(element => {
+                        element.forEach(elem => {
+                            gr_schedule[elem.day][elem.lecture_ord][0] = elem.language; // need cab here
+                            gr_schedule[elem.day][elem.lecture_ord][1] = teacherMapping[elem.teacher]; 
+                            gr_schedule[elem.day][elem.lecture_ord][2] = subjectsMapping[elem.subject];
+                            gr_schedule[elem.day][elem.lecture_ord][3] = elem.type
+                        });
                     });
-                    
-                }); 
-                for (let i = 0; i < 6; i++) {
-                    for (let j = 0; j < 7; j++) {
-                        const rowIndex = i * 7 + j + 1;
-                        const cell = document.querySelector(`tbody tr:nth-child(${rowIndex}) td:nth-child(2)`);
-                        const cab = gr_schedule[i][j][0];
-                        const prof = gr_schedule[i][j][1];
-                        cell.innerText = `Cab: ${cab}, Prof: ${prof}`;
+
+                    for (let i = 0; i < 6; i++) {
+                        for (let j = 0; j < 7; j++) {
+                            const rowIndex = i * 7 + j + 1;
+                            const cell = document.querySelector(`tbody tr:nth-child(${rowIndex}) td:nth-child(1)`);
+                            const cab = gr_schedule[i][j][0];
+                            const prof = gr_schedule[i][j][1];
+                            const subj = gr_schedule[i][j][2];
+                            const type = gr_schedule[i][j][3];
+                            if(subj[0]==null){
+                                cell.innerText=``;
+                            }
+                            else{
+                                cell.innerHTML = `Lang: <b>${cab}</b>, Prof: <b>${prof}, ${subj}, ${type}</b>`;
+                            }
+                            
+                        }
                     }
-                }
+
+                })
+                .catch(error => console.error('Error fetching second file:', error))
             })
-            .catch(error => console.error('Errorrrr fetching data:', error));
+            .catch(error => console.error('Error fetching second file:', error));
+    })
+    .catch(error => console.error('Error fetching first file:', error));
+
     </script>
 </body>
 </html>

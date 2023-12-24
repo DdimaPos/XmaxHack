@@ -64,18 +64,23 @@ nav{
 
 }
 table{
-    margin: 0 auto;
+    margin: 20px auto;
     width: 1200px;
     height: 700px;
     //background-color: #f6b7b7;
     tr:nth-child(odd){
-        background-color: rgb(232, 144, 144);
+        background-color: rgb(170, 229, 254);
+    }
+    tr:nth-child(7n){
+        border: 1px solid black;
     }
     //border: 1px solid black;
     .day{
         transform: rotate(-90deg);
+        font-size: 20PX;
         border:  none;
-        width:30%
+        width:15%;
+        font-weight: 600;
     }
     tr{
         text-align: center;
@@ -85,12 +90,29 @@ table{
         td{
             font-size: 17px;
             margin: 0;
-            border: 3px solid black;
+            border: none;
+            padding: 25px;
         }
         th{
             font-size: 18px;
             margin: 0;
         }
     }
+    .Anul{
+        opacity: 0;
+        position: absolute;
+        transition: 0.1s;
+    }
+    .active{
+        opacity: 1;
+    }
     
+}
+.tabels{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.view{
+    margin: 0 auto;
 }

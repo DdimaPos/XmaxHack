@@ -110,18 +110,23 @@ nav ul li img {
 }
 
 table {
-  margin: 0 auto;
+  margin: 20px auto;
   width: 1200px;
   height: 700px;
 }
 table tr:nth-child(odd) {
-  background-color: rgb(232, 144, 144);
+  background-color: rgb(170, 229, 254);
+}
+table tr:nth-child(7n) {
+  border: 1px solid black;
 }
 table .day {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+  font-size: 20PX;
   border: none;
-  width: 30%;
+  width: 15%;
+  font-weight: 600;
 }
 table tr {
   text-align: center;
@@ -131,9 +136,29 @@ table tr {
 table tr td {
   font-size: 17px;
   margin: 0;
-  border: 3px solid black;
+  border: none;
+  padding: 25px;
 }
 table tr th {
   font-size: 18px;
   margin: 0;
+}
+table .Anul {
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+table .active {
+  opacity: 1;
+}
+
+.tabels {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.view {
+  margin: 0 auto;
 }
