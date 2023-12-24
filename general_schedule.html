@@ -24,6 +24,21 @@
     <div class="tabels">
         <object class="view" data="data/Anul1.pdf" width="1200" height="700" type="application/pdf"></object>
     </div>
-    
+    <div class="loading"><img src="img/loading.gif" alt=""></div>
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+        // Use setTimeout to add a class after 3 seconds
+        setTimeout(function () {
+            var elementToHighlight = document.querySelector(".loading");
+            elementToHighlight.classList.add("hide");
+            
+        }, 2000); // 3000 milliseconds = 3 seconds
+        setTimeout(function () {
+            var elementToHighlight = document.querySelector(".loading");
+            elementToHighlight.classList.add("remove");
+            
+        }, 3000); // 3000 milliseconds = 3 seconds
+        });
+    </script>
 </body>
 </html>
